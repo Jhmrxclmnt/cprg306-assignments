@@ -1,11 +1,9 @@
 
 export default function Item(props){
     return(
-        <div className="ml-4">
-            <h2 className="text-green-500">{props.name}
-            </h2>
-            <p className="text-xs">
-                {props.quantity}, {props.category}
+        <div>
+            <h2 className="text-xl font-bold">{props.name}</h2>
+            <p className="text-sm">Buy {props.quantity} in {props.category}
             </p>
         </div>
     )   
