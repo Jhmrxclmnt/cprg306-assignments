@@ -36,7 +36,7 @@ export default function ItemList() {
     <main>
       <div>
         <label class="sort">Sort by: </label>
-        <button className="bg-orange-700 p-1 m-2 w-28" onClick={() => setSortBy("names")} style={{ backgroundColor: sortBy === "name" ? "#ff751a" : "" }}>Name</button>
+        <button className="bg-orange-700 p-1 m-2 w-28" onClick={() => setSortBy("name")} style={{ backgroundColor: sortBy === "name" ? "#ff751a" : "" }}>Name</button>
         <button className="bg-orange-700 p-1 m-2 w-28" onClick={() => setSortBy("category")} style={{ backgroundColor: sortBy === "category" ? "#ff751a" : "" }}>Category</button>
         <button className="bg-orange-700 p-1 m-2 w-28" onClick={() => setSortBy("groupedCategory")} style={{ backgroundColor: sortBy === "groupedCategory" ? "#ff751a" : "" }}>Grouped Category</button>
         <label className="absolute top-20 left-240 text-gray-600 text-xs italic" htmlFor="group-category"></label>
