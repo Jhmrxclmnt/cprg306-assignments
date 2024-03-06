@@ -19,6 +19,9 @@ export default function Header(){
         <li>
         <Link href="week-6">Week6 - Assignment</Link>
         </li>
+        <li>
+        <Link href="week-7">Week7 - Assignment</Link>
+        </li>
       </ul>
     </main>
   );
